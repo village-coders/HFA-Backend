@@ -1,6 +1,6 @@
 const messageModel = require("../Model/message");
-const sendSuccessfulFeedbackEmail = require("../Services/Nodemailer/sendSuccessfullFeedbackEmail");
-const sendSuccessfulFeedbackEmailToAdmin = require("../Services/Nodemailer/sendSuccessfullFeedbackEmailToAdmin");
+// const sendSuccessfulFeedbackEmail = require("../Services/Nodemailer/sendSuccessfullFeedbackEmail");
+// const sendSuccessfulFeedbackEmailToAdmin = require("../Services/Nodemailer/sendSuccessfullFeedbackEmailToAdmin");
 
 const sendMessage = async(req, res) => {   
     const {email, name} = req.body 
