@@ -2,8 +2,8 @@ const nodemailer = require("nodemailer");
 const dotenv = require("dotenv")
 dotenv.config()
 const transporter = nodemailer.createTransport({
-    host: "smtp.gmail.com",
-    service: "gmail",
+    host: "smtp.office365.com",
+    // service: "gmail",
     secure: false,
     port: 587,
     auth: {
@@ -11,7 +11,8 @@ const transporter = nodemailer.createTransport({
         pass: process.env.Nodemailer_Pass
     },
     tls: {
-        rejectUnauthorized: false, // Bypasses certificate validation
+        rejectUnauthorized: false,
+        ciphers: "SSLv3",
     },
 
 })

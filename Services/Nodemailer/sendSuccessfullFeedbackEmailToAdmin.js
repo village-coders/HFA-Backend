@@ -5,8 +5,8 @@ const sendSuccessfulFeedbackEmailToAdmin = (userFirstName) => {
   const options = {
     to: "admin@gmail.com",
     subject: "New Feedback Submitted Successfully",
-    from: `"HFA" <noreply-hfa@gmail.com>`,
-    replyTo: "noreply-hfa@gmail.com",
+    from: `"Halal Food Authority" <anike@halalfoodauthority.com>`,
+    replyTo: "no-reply@halalfoodauthority.com",
     html: `
       <div style="font-family: Arial, sans-serif; font-size: 16px; color: #333; line-height: 1.6; padding: 20px;">
         <p style="margin-bottom: 16px;">Hi Admin,</p>
