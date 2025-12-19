@@ -19,7 +19,7 @@ const sendSuccessfulFeedbackEmailToAdmin = (userFirstName) => {
           Please review the feedback at your convenience.
         </p>
 
-        <p style="font-weight: bold;">HFA Team</p>
+        <p style="font-weight: bold;">HFA IT Team</p>
       </div>
     `,
   };
